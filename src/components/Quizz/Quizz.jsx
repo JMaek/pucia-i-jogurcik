@@ -72,7 +72,6 @@ export default function Quizz() {
 							<video
 								className="Video"
 								autoPlay
-								controls
 								key={videoSrc}
 							>
 								<source
