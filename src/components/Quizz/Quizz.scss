@@ -1,0 +1,97 @@
+.Quiz {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 60px;
+
+	&__Question {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	&__VidAns {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	&__Answers {
+		width: 25%;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	&__Answer {
+		background-color: rgb(181, 140, 157);
+		width: 100%;
+		font-size: 2rem;
+		color: rgb(173, 46, 84);
+		padding: 10px;
+		text-align: center;
+		border-radius: 8px;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+
+		&.active {
+			background-image: linear-gradient(
+				to right,
+				rgb(181, 140, 157),
+				rgb(221, 171, 191)
+			);
+		}
+	}
+
+	Button {
+		margin-top: 30px;
+	}
+
+	h1 {
+		color: rgb(38, 32, 36);
+	}
+
+	video {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.Quiz {
+		align-items: start;
+		padding: 60px 10px;
+
+		&__Question {
+			font-size: 2rem;
+			gap: 150px;
+		}
+
+		&__Answers {
+			width: 40%;
+
+			gap: 40px;
+		}
+
+		&__Answer {
+			font-size: 3rem;
+			padding: 10px;
+			text-align: center;
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		video {
+			width: 40%;
+		}
+	}
+}

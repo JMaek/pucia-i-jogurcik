@@ -1,0 +1,54 @@
+.Home {
+	&__Hero {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__Video {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: auto;
+		z-index: -100;
+		overflow: hidden;
+	}
+
+	&__Titles {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	&__Title {
+		font-size: 5rem;
+		text-align: center;
+		color: rgb(173, 46, 84);
+	}
+
+	&__SubTitle {
+		color: rgb(38, 32, 36);
+	}
+}
+@media screen and (max-width: 1000px) {
+	.Home {
+		&__Video {
+			width: auto;
+			height: 100%;
+		}
+
+		&__Title {
+			font-size: 5.5rem;
+		}
+
+		&__SubTitle {
+			font-size: 2.5rem;
+			text-align: center;
+		}
+	}
+}

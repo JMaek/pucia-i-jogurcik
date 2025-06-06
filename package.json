@@ -1,0 +1,27 @@
+{
+	"name": "my-app",
+	"version": "0.1.0",
+	"homepage": "https://JMaek.github.io/pucia-i-jogurcik",
+	"private": true,
+	"scripts": {
+		"deploy": "next build  && gh-pages -d out",
+		"dev": "next dev & npx next-video sync -w",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@lottiefiles/dotlottie-react": "^0.13.5",
+		"next": "15.3.2",
+		"next-video": "^2.2.0",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"sass": "^1.89.0"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3",
+		"eslint": "^9",
+		"eslint-config-next": "15.3.2",
+		"gh-pages": "^6.3.0"
+	}
+}
