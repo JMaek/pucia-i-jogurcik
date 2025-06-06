@@ -18,7 +18,7 @@ export default function Home() {
 						loop
 					>
 						<source
-							src="herovid.mp4"
+							src="/nextjs-github-pages/herovid.mp4"
 							type="video/mp4"
 						/>
 					</video>
