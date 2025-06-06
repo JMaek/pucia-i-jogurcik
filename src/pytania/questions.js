@@ -5,8 +5,8 @@ export const pytania = {
 			question: "Jaki jest jej ulubiony kolor?",
 			answers: ["niebieski", "fioletowy", "rożowy", "pomarańczowy"],
 			correctAnswer: "rożowy",
-			video: "/nextjs-github-pages/p1.mp4",
-			answerVideo: "/nextjs-github-pages/o1.mp4",
+			video: "/pucia-i-jogurcik/p1.mp4",
+			answerVideo: "/pucia-i-jogurcik/o1.mp4",
 		},
 		{
 			question: "Jaki jest jej kolor oczu?",
