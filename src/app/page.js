@@ -29,7 +29,7 @@ export default function Home() {
 							Czy są ze sobą kompatybilni? Sprawdź teraz!
 						</h2>
 
-						<Button onClick={() => router.push("/quiz/0")}>
+						<Button onClick={() => router.push("/quiz/pytanka")}>
 							Rozpocznij Quiz
 						</Button>
 					</div>
